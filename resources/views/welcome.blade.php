@@ -9,7 +9,7 @@
                 <div class="col-md-6 py-5">
                     <h4 class="mt-4">Punya Masalah Di Sekitar Lingkunganmu ?</h4>
                     <p>Aduin aja masalahmu di Adu.co</p>
-                    <button class="btn btn-light px-5 py-2">Aduin Sekarang</button>
+                    <a href="{{ route('form.pengaduan') }}" class="btn btn-light px-5 py-2">Aduin Sekarang</a>
                 </div>
                 <div class="col-md-6 text-center">
                     <img src="{{ asset('img/illust/illust2.svg') }}" class="w-50" alt="">

@@ -71,7 +71,7 @@
     <footer class="container-fluid py-5">
         <div class="row">
             <div class="col-md-12 text-center">
-                @2020 Developed By Cahyooo
+                @2021 Developed By Cahyooo
             </div>
         </div>
     </footer>

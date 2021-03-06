@@ -19,7 +19,11 @@ class UserController extends Controller
     {
         if(Auth::attempt($request->only(['email', 'password']))) {
             $user = Auth::user();
-            return redirect()->route('home')->with('success', 'Login Success');
+            if($user->level == 'umum') {
+                return redirect()->route('home')->with('success', 'Login Success');
+            } else {
+                return redirect()->route('dashboard')->with('success', 'Login Success');
+            }
         } else {
             return redirect()->back()->with('error', 'Invalid Email Password');
         }

@@ -25,3 +25,5 @@ Route::get('login', [UserController::class, 'loginGet'])->name('loginView');
 Route::post('login', [UserController::class, 'loginPost'])->name('loginLogic');
 Route::get('register', [UserController::class, 'registerGet'])->name('registerView');
 Route::post('register', [UserController::class, 'registerPost'])->name('registerLogic');
+
+Route::get('dashboard', [PageController::class, 'dashboard'])->name('dashboard');
