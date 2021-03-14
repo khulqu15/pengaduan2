@@ -15,6 +15,10 @@ body {
     padding: 1rem 2rem;
     color: white;
 }
+.object-fit {
+    object-fit: cover;
+    object-position: center;
+}
 .text-right {
     text-align: right !important;
 }

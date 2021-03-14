@@ -34,7 +34,7 @@
                     <div class="form-group mb-3">
                         <label for="level">Level</label>
                         <select name="level" id="level" class="form-control" aria-describedby="helpId">
-                            <option value="umum">Umum</option>
+                            <option value="user">Umum</option>
                             <option value="admin">Admin</option>
                             <option value="petugas">Petugas</option>
                         </select>
